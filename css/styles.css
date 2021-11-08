@@ -1,0 +1,187 @@
+
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  color: #F08A5D;
+  line-height: 1;
+}
+
+h2 {
+  margin-top: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2.5rem;
+  color: #F08A5D;
+  font-weight: bold;
+}
+
+h3 {
+  margin-top: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #F08A5D;
+}
+
+a {
+  color: #F08A5D;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #6A2C70;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+footer{
+  font-size: 0.5rem;
+  color: #40514E;
+  background-color: #F9ED69;
+
+
+}
+
+hr {
+
+  border-style: dotted none none none;
+  border-color: #6A2C70;
+  border-width: 6px;
+  width: 8%;
+  margin: 80px auto 80px auto;
+
+}
+
+.top-container {
+  background-color: #F9ED69;
+  margin: 0;
+  position: relative;
+  padding-top: 100px;
+}
+
+
+.middle-container{
+
+}
+
+.bottom-container{
+background-color: #F9ED69;
+padding: 40px 0 40px 0;
+font-family: 'Roboto', sans-serif;
+}
+
+.top-cloud{
+  position:absolute;
+  top:50px;
+  left:60%;
+}
+
+.bottom-cloud{
+  position:absolute;
+  left:20%;
+}
+
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.img-cocktail{
+  width: 120px;
+  float:left;
+  margin-right: 30px;
+  margin-bottom: 100px;
+}
+
+.img-fishing{
+  width: 120px;
+  float:right;
+  margin-left: 30px;
+  margin-bottom: 100px;
+}
+
+.profile{
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+}
+
+.profile-img{
+margin: 50px auto 50px auto;
+}
+
+.contact-me{
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+   background: #F9ED69;
+   background-image: -webkit-linear-gradient(top, #F08A5D, #F08A5D);
+   background-image: -moz-linear-gradient(top, #F08A5D, #F08A5D);
+   background-image: -ms-linear-gradient(top, #F08A5D, #F08A5D);
+   background-image: -o-linear-gradient(top, #F08A5D, #F08A5D);
+   background-image: -webkit-gradient(to bottom, #F08A5D, #F08A5D);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Roboto', sans-serif;
+   font-size: 15px;
+   font-weight: 100;
+   padding: 10px;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #F08A5D 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 20px auto 50px auto;
+}
+
+.btn:hover {
+   border: solid #F9ED69 1px;
+   background: #F9ED69;
+   background-image: -webkit-linear-gradient(top, #F9ED69, #F9ED69);
+   background-image: -moz-linear-gradient(top, #F9ED69, #F9ED69);
+   background-image: -ms-linear-gradient(top, #F9ED69, #F9ED69);
+   background-image: -o-linear-gradient(top, #F9ED69, #F9ED69);
+   background-image: -webkit-gradient(to bottom, #F9ED69, #F9ED69);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+}
+
+.footer-link{
+  margin: 0 15px 0 15px;
+}
+
+.copyright{
+  font-size: 0.75rem;
+  color: #40514E;
+  margin-top: 20px;
+}
+
+.copyright-link{
+  color: #40514E;
+}
+
+/*
+Permet de supprimer l'aspect "float" de l'image
+.fish-text{
+  clear:right;
+}
+*/
